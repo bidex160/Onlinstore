@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/picimg"
+        android:layout_marginTop="70dp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+
+        android:paddingTop="2dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nview"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:text="Name"
+        android:layout_below="@id/picimg"/>
+   <TextView
+       android:layout_width="170dp"
+
+      android:textDirection="rtl"
+       android:layout_height="41dp"
+      android:layout_alignParentRight="true"
+       android:layout_marginRight="30dp"
+       android:textStyle="bold"
+       android:id="@+id/nset"
+       android:layout_marginTop="0dp"
+       android:text="Name"
+       android:layout_marginLeft="40dp"
+       android:textSize="10sp"
+       android:layout_below="@id/picimg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:text="Price"
+        android:layout_below="@id/nview"/>
+
+    <TextView
+        android:id="@+id/pset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nset"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="2dp"
+
+        android:layout_marginRight="30dp"
+
+
+        android:text="Price"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pview"
+        android:text="Quantity"
+        android:id="@+id/qview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/qtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pset"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="30dp"
+        android:text="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalviw"
+        android:layout_below="@id/qview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="22dp"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textSize="10sp"/>
+    <TextView
+        android:id="@+id/stotoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qtt"
+        android:layout_marginTop="1dp"
+        android:text="0.00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"/>
+   <Button
+       android:layout_alignParentLeft="true"
+
+       android:layout_width="120dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/totalviw"
+       android:layout_marginTop="10dp"
+       android:text="Add to Cart"
+       android:id="@+id/addtocartbt"
+       android:layout_marginLeft="40dp"
+      android:background="@drawable/btback"/>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalviw"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:text="View Cart"
+        android:layout_toRightOf="@id/addtocartbt"
+        android:id="@+id/viewcartbt"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/btback"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/secondmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ECBBD0"
+        app:menu="@menu/mainfragmenu"/>
+
+</RelativeLayout>

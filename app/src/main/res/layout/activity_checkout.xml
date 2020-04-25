@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkout">
+
+    <TextView
+        android:id="@+id/billing"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Billing Address"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:id="@+id/usernametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Name:-"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/billing"
+
+        />
+
+
+    <EditText
+        android:layout_toRightOf="@id/usernametxt"
+        android:id="@+id/usernamedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_below="@id/billing"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+    <TextView
+        android:id="@+id/useremailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="E-mail:-"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/usernametxt"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/usermailedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="38dp"
+     android:layout_toRightOf="@id/useremailtxt"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+      android:layout_below="@id/usernamedit"
+        android:inputType="textPersonName"
+        android:hint="E-mail" />
+    <TextView
+        android:id="@+id/usernumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Contact:-"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/useremailtxt"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/usernumedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/usernumber"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/usermailedit"
+        android:inputType="textPersonName"
+        android:hint="Phone No" />
+    <TextView
+        android:id="@+id/useraddresttx"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Delivery Address:-"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/usernumber"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/useraddresedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/useraddresttx"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/usernumedit"
+        android:inputType="textPersonName"
+        android:hint="Delivery Address"/>
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="80dp"
+        android:text="Order"
+     android:layout_marginTop="90dp"
+        android:background="@drawable/btback"
+        android:layout_below="@id/useraddresedit"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ECBBD0"
+        app:menu="@menu/mainfragmenu"
+        android:id="@+id/billingmenu"
+        />
+
+
+</RelativeLayout>

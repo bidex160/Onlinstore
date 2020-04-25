@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844539293562",
+    "firebase_url": "https://sicostore-ba0ea.firebaseio.com",
+    "project_id": "sicostore-ba0ea",
+    "storage_bucket": "sicostore-ba0ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844539293562:android:4f99f3b924c461ba3f30c3",
+        "android_client_info": {
+          "package_name": "com.example.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844539293562-454hur168tc8kd297ohka046k6h0ndfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.store",
+            "certificate_hash": "57095c9569908c8297eea2e3c45df7a8129015a4"
+          }
+        },
+        {
+          "client_id": "844539293562-dq75558l61sbjhrdogb6q1fartutno4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3g08CSgD_hGWnY9yaXtd3rlHd0lkhLdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844539293562-dq75558l61sbjhrdogb6q1fartutno4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

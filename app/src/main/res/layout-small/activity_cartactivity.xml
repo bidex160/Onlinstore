@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cartactivity"
+    android:background="@android:color/white"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartrecycle"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+
+        android:layout_marginTop="80dp" />
+    <TextView
+        android:id="@+id/subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cartrecycle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+
+        android:id="@+id/totaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Balance"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/shippingtxt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/setsubtcart"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cartrecycle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/settotalcart"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/setshipping"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/shippingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtotal"
+        android:layout_marginLeft="20dp"
+        android:text="Shipping fee"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/setshipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="5dp"
+        android:text="0.00"
+        android:textStyle="bold"
+        android:layout_below="@id/subtotal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/cartprocced"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btback"
+        android:layout_below="@id/totaltxt"
+        android:text="Proceed to Checkout"
+
+        />
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cartmenubt"
+    android:layout_alignParentBottom="true"
+    android:background="#ECBBD0"
+    app:menu="@menu/mainfragmenu"/>
+
+</RelativeLayout>

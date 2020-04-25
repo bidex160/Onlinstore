@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tblayou"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/tblayou"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/sptxt"
+        android:text="Color/Size"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pview"/>
+    <TextView
+        android:id="@+id/txtt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pset"
+        android:textSize="15sp"
+        android:textDirection="rtl"
+        android:text="Select Colors"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nview"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Name"
+        android:layout_below="@id/pager"/>
+   <TextView
+       android:layout_width="170dp"
+
+      android:textDirection="rtl"
+       android:layout_height="35dp"
+      android:layout_alignParentRight="true"
+       android:layout_marginRight="30dp"
+       android:textStyle="bold"
+       android:id="@+id/nset"
+       android:layout_marginTop="10dp"
+       android:text="Name"
+       android:layout_marginLeft="40dp"
+       android:textSize="10sp"
+       android:layout_below="@id/pager"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Price"
+        android:layout_below="@id/nview"/>
+
+    <TextView
+        android:id="@+id/pset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nset"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_marginRight="30dp"
+
+
+        android:text="Price"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sptxt"
+        android:text="Quantity"
+        android:id="@+id/qview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtt"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="30dp"
+        android:text="1" />
+    <TextView
+        android:id="@+id/sqt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spp"
+        android:textSize="15sp"
+        android:textDirection="rtl"
+        android:text="quantity"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalviw"
+        android:layout_below="@id/qview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/stotoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sqt"
+        android:layout_marginTop="3dp"
+        android:text="0.00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"/>
+   <Button
+       android:layout_alignParentLeft="true"
+
+       android:layout_width="120dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/totalviw"
+       android:layout_marginTop="40dp"
+       android:text="Add to Cart"
+       android:id="@+id/addtocartbt"
+       android:layout_marginLeft="40dp"
+      android:background="@drawable/btback"/>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalviw"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:text="View Cart"
+        android:layout_toRightOf="@id/addtocartbt"
+        android:id="@+id/viewcartbt"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/btback"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/secondmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ECBBD0"
+        app:menu="@menu/mainfragmenu"/>
+
+</RelativeLayout>

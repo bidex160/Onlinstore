@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+
+        android:id="@+id/txtfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="25dp"
+        android:text="Filter"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <Spinner
+
+        android:id="@+id/spinnerad"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtfilter"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+
+        android:layout_marginTop="110dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnv"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="#ECBBD0"
+
+        app:menu="@menu/mainfragmenu" />
+
+    <EditText
+
+        android:id="@+id/searchedit"
+        android:layout_marginLeft="10dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:hint="Enter product name here"
+
+        android:layout_marginTop="55dp"
+       />
+
+
+</RelativeLayout>

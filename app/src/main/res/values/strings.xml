@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">Store</string>
+    <string name="cname">Sico Cosmetics</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_closed">closed</string>
+
+
+    <string-array name="Milani_Powder">
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Dark</item>
+
+    </string-array>
+
+    <string-array name="Zaron_Powder">
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>65</item>
+    </string-array>
+    <string-array name="Zaron_Foundation">
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="MilaniPower_BC">
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="VeeBeauty_Foundation">
+        <item>Melani</item>
+        <item>Honey</item>
+        <item>Neutral</item>
+        <item>Vee Java</item>
+        <item>Vee Cloud</item>
+        <item>Vee Sand</item>
+        <item>Sea Baby</item>
+        <item>Vee Ivory</item>
+
+    </string-array>
+    <string-array name="Flawless">
+        <item>Beige</item>
+        <item>Honey</item>
+        <item>Nutmeg</item>
+        <item>Ebony</item>
+        <item>Dark Ebony</item>
+        <item>Vee Sand</item>
+        <item>Sea Baby</item>
+        <item>Vee Ivory</item>
+
+    </string-array>
+
+    <string-array name="others">
+        <item>045</item>
+        <item>050</item>
+        <item>057</item>
+        <item>060</item>
+        <item>067</item>
+        <item>078</item>
+    </string-array>
+
+    <string-array name="SS_foundation">
+        <item>310</item>
+        <item>312</item>
+        <item>320</item>
+        <item>330</item>
+        <item>332</item>
+        <item>334</item>
+        <item>336</item>
+        <item>340</item>
+        <item>355</item>
+        <item>356</item>
+        <item>370</item>
+        <item>375</item>
+        <item>380</item>
+    </string-array>
+
+
+    <string-array name="JordanSc_powder">
+        <item>08</item>
+        <item>09</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+    <string-array name="SET_OF_Brushes">
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>32</item>
+
+    </string-array>
+    <string-array name="Vessie_Goldsmith_Foundation">
+        <item>V5</item>
+        <item>V10</item>
+        <item>V15</item>
+        <item>V20</item>
+        <item>V25</item>
+        <item>V30</item>
+
+    </string-array>
+    <string-array name="LAGirl_powder">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+
+    </string-array>
+
+    <string-array name="Jordana_Foundation">
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+
+
+    <string-array name="Mac_foundation">
+        <item>NC42</item>
+        <item>NC45</item>
+        <item>NC48</item>
+        <item>NG50</item>
+
+    </string-array>
+
+    <string-array name="JordanaBC_powder">
+        <item>110</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+    </string-array>
+
+
+    <string-array name="fina_foundation">
+        <item>045</item>
+        <item>050</item>
+        <item>057</item>
+        <item>060</item>
+        <item>067</item>
+        <item>078</item>
+    </string-array>
+
+    <string-array name="fitme_foundation">
+        <item>310</item>
+        <item>312</item>
+        <item>320</item>
+        <item>330</item>
+        <item>332</item>
+        <item>334</item>
+        <item>336</item>
+        <item>340</item>
+        <item>355</item>
+        <item>356</item>
+        <item>370</item>
+        <item>375</item>
+        <item>380</item>
+    </string-array>
+
+    <string-array name="Zikel_powder">
+        <item>Zikel</item>
+        <item>Warm</item>
+        <item>Toffe</item>
+        <item>Warm Honey</item>
+        <item>Dark Cocoa</item>
+        <item>Ebony</item>
+        <item>Nutmeg</item>
+        <item>Cafe</item>
+
+    </string-array>
+
+    <string-array name="Zikel_tube">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="Zikel_bottle">
+        <item>001</item>
+        <item>005</item>
+        <item>010</item>
+        <item>015</item>
+        <item>020</item>
+        <item>025</item>
+        <item>030</item>
+        <item>035</item>
+
+    </string-array>
+
+    <string-array name="Lorealtrue_foundation">
+
+        <item>W7</item>
+        <item>C10</item>
+        <item>n9</item>
+        <item>W8</item>
+
+    </string-array>
+
+    <string-array name="Eyelashes">
+        <item>Short</item>
+        <item>Short Medium</item>
+        <item>Medium</item>
+        <item>Long</item>
+        <item>Very Long</item>
+
+    </string-array>
+    <string-array name="Davis_Pencil">
+        <item>18</item>
+        <item>03</item>
+        <item>06</item>
+        <item>42</item>
+
+
+    </string-array>
+
+</resources>

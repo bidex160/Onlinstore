@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:padding="5dp"
+    android:layout_margin="3dp"
+    android:id="@+id/cardparent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/recimage"
+            android:layout_width="178dp"
+            android:layout_height="156dp"
+            android:src="@drawable/ic_person" />
+
+        <TextView
+            android:id="@+id/recyclename"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recimage"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="10dp"
+            android:text="Product Name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recycleprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclename"
+            android:layout_toRightOf="@id/recyhas"
+            android:layout_marginTop="10dp"
+            android:text="Product Price"
+            android:textDirection="ltr"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recyhas"
+            android:layout_below="@id/recyclename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="#"
+
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/background_dark"
+          android:layout_alignParentLeft="true"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
